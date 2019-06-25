@@ -76,8 +76,11 @@
     position: relative;
     overflow: hidden;
 
-    
 
+        &:hover{
+        color: $pink;
+        transition: color .3s linear;
+    }
 
 }
 

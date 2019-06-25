@@ -26,6 +26,7 @@ font-style: normal;
 
 /* Default styles */
 html {
+    max-width: 200%;
     font-size: 16px;
     margin: 0;
 	padding: 0;
@@ -71,6 +72,8 @@ a{
 @import "blocks/support";
 @import "blocks/service";
 @import "blocks/modal";
+@import "blocks/media";
+@import "blocks/product";
 @import "blocks/footer";
 
 /* Bootstrap */
